@@ -1,0 +1,82 @@
+*
+{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+body{
+  background-color: #f991cc;
+  background-image: url(pexels-jplenio-1103970.jpg);
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  min-height: 100vh;
+  
+}
+h2
+{
+  text-align: center;
+  color: blue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  /*margin-bottom: 80px;*/
+  align-items: rtl;
+}
+
+fieldset
+{
+  padding: 40px;
+  width: 300px;
+  max-width: 90%;
+  border-radius: 20px;
+  background-color: #e2f3f4;  
+}
+.input-group
+{
+  color: black;
+  padding: 10px;
+
+}
+ .input-group input
+{
+  width: 20rem;
+  height: 20px;
+  border-radius: 5px;
+}
+ button
+{
+ 
+  padding: 10px;
+  color: black;
+  width: 27rem;
+  background-color: #6dc7d1;
+  border-radius: 5px;
+  font-size: 20px;
+    
+}
+.contair 
+{
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: ltr;
+
+}
+.createButton button
+{
+  font-size: 20px;
+  color: white;
+  background-color: blue;
+  
+}
+
+.input-group label
+{
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
